@@ -12,13 +12,16 @@ frameworks:
   - item: TensorFlow
   - item: React
   - item: Node
+  - item: JQuery
+  - item: Flask
+  - item: Spring Boot
 
 tools:
   - item: Bash
   - item: Git & Github
   - item: Chrome DevTools
   - item: Postman
-  - item: MongoDB
+  - item: AliCould Service
 
 music:
   - item: Piano

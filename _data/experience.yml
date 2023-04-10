@@ -1,13 +1,15 @@
 - company: Xi'an Jiaotong-Liverpool University
-  # url: http://www.ccis.northeastern.edu/
+  url: https://www.xjtlu.edu.cn/en
   time: Oct 2021 - Present
   position: Music Informatics Research Assistant
 
 - company: Yufeng Technology co., ltd.
+  url: https://www.yufengtek.com/
   time: Jul 2021 - Oct 2021
   position: Machine Learning Engineer (Full-time)
 
-- company: Emerson
+- company: Emerson Electric Co.
+  url: https://www.emerson.com/en-us
   time: Jul 2020 - Aug 2020
   position: Software Engineer Intern
 
