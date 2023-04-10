@@ -2,17 +2,17 @@
     <div class="section__title">Education</div>
     <div class="section__content">
       <div class="jobs">
-        {% for job in site.data.education %}
+        {% for exp in site.data.education %}
         <div class="job">
           <div class="time-place">
             <div class="job__company">
-              <!-- <a href="{{job.url}}" target="_blank">{{job.company}}</a> -->
-              <a target="_blank">{{job.company}}</a>
+              <a href="{{institution.url}}" target="_blank">{{exp.institution}}</a>
+              <!-- <a target="_blank">{{exp.institution}}</a> -->
   
             </div>
-            <div class="job__time">{{job.time}}</div>
+            <div class="job__time">{{exp.time}}</div>
           </div>
-          <div class="job__position">{{job.position}}</div>
+          <div class="job__position">{{exp.degree}}</div>
         </div>
         {% endfor %}
       </div>

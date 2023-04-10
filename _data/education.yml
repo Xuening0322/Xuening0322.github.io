@@ -1,14 +1,15 @@
-- company: Cornell Tech, Cornell University
+- institution: Cornell Tech, Cornell University
+  url: https://tech.cornell.edu/
   time: Sep 2019 - Jul 2023
-  position: M.S. Information Systems (with a concentration in connective media)
+  degree: M.S. Information Systems (with a concentration in connective media)
 
-- company: Xi'an Jiaotong-Liverpool University
+- institution: Xi'an Jiaotong-Liverpool University
+  url: https://www.xjtlu.edu.cn/en
   time: Sep 2019 - Jul 2023
-  position: B.Sc. Information and Computing Science
+  degree: B.Sc. Information and Computing Science
 
-- company: University of Liverpool
+- institution: University of Liverpool
+  url: https://www.liverpool.ac.uk/
   time: Sep 2019 - Jul 2023
-  position: B.Sc. Computer Science
-
-
+  degree: B.Sc. Computer Science
 
