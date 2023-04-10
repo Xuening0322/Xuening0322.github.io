@@ -4,7 +4,7 @@ languages:
   - item: Java
   - item: JavaScript
   - item: HTML
-  - item: CSS/Sass
+  - item: CSS
   - item: SQL
 
 frameworks:
