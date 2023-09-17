@@ -1,0 +1,45 @@
+# Site settings
+name: Xuening Wang
+title: Xuening Wang | AI Music Enthusiast
+description: a machine learning and music technology enthusiast focused on technology &amp; creativity
+url: https://bchiang7.github.io/
+baseurl: ''
+email: xuening0322@gmail.com
+cover: https://bchiang7.github.io/img/og.png
+logo: https://xuening0322.github.io/img/emojis/technologist.png
+resume: https://bchiang7.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:xuening0322@gmail.com
+  # - title: twitter
+  #   url: https://twitter.com/bchiang7
+  - title: instagram
+    url: https://instagram.com/xuening_0322
+  - title: blog
+    url: http://xuening.wang/blog
+  - title: github
+    url: https://github.com/xuening0322
+  - title: linkedin
+    url: https://www.linkedin.com/in/xuening-wang-music
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap

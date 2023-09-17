@@ -1,0 +1,32 @@
+languages:
+  - item: Python
+  - item: C++
+  - item: Java
+  - item: JavaScript
+  - item: HTML
+  - item: CSS
+  - item: SQL
+
+frameworks:
+  - item: PyTorch
+  - item: TensorFlow
+  - item: React
+  - item: Node
+  - item: JQuery
+  - item: Flask
+  - item: Spring Boot
+
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman
+  - item: AliCould Service
+
+music:
+  - item: Piano
+  - item: Composing
+  - item: Singing
+  - item: Guitar
+  - item: Ukulele
+  - item: Music Production
