@@ -21,7 +21,8 @@ tools:
   - item: Git & Github
   - item: Chrome DevTools
   - item: Postman
-  - item: AliCould Service
+  - item: Amazon Web Services
+  - item: Alibaba Cloud Services
 
 music:
   - item: Piano

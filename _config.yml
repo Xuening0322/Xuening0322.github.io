@@ -1,14 +1,14 @@
 # Site settings
 name: Xuening Wang
-title: Xuening Wang | AI Music Enthusiast
-description: a machine learning and music technology enthusiast focused on technology &amp; creativity
-url: https://bchiang7.github.io/
+title: Xuening Wang
+description: a machine learning engineer focused on technology &amp; creativity
+url: https://xuening0322.github.io/
 baseurl: ''
 email: xuening0322@gmail.com
 cover: https://bchiang7.github.io/img/og.png
 logo: https://xuening0322.github.io/img/emojis/technologist.png
 resume: https://bchiang7.github.io/resume.pdf
-social:
+social: 
   - title: email
     url: mailto:xuening0322@gmail.com
   # - title: twitter
