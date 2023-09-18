@@ -1,33 +1,35 @@
 languages:
   - item: Python
-  - item: C++
   - item: Java
+  - item: C++
   - item: JavaScript
-  - item: HTML
-  - item: CSS
   - item: SQL
+  - item: PHP
 
-frameworks:
+mlds:
   - item: PyTorch
   - item: TensorFlow
+  - item: Scikit-learn
+  - item: Keras
+  - item: Pandas
+  - item: Apache Spark
+
+web_technologies:
+  - item: HTML
+  - item: CSS
+  - item: Node.js
   - item: React
-  - item: Node
   - item: JQuery
   - item: Flask
   - item: Spring Boot
 
-tools:
+
+tools_and_platforms:
   - item: Bash
-  - item: Git & Github
+  - item: Git & GitHub
   - item: Chrome DevTools
   - item: Postman
-  - item: Amazon Web Services
+  - item: Amazon Web Services (AWS)
   - item: Alibaba Cloud Services
+  - item: ActiveMQ
 
-music:
-  - item: Piano
-  - item: Composing
-  - item: Singing
-  - item: Guitar
-  - item: Ukulele
-  - item: Music Production
