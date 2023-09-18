@@ -1,4 +1,5 @@
 - name: Smart Music Production System
+  url: https://github.com/Humming-Tacos
   code: https://github.com/Humming-Tacos
   description: An “AI Songwriter” application which generates melodies and piano accompaniments based on user’s vocal input. An end-to-end pipeline integrating Singing Voice Transcrition, AI Composition and Real-time Music Synthesis. <a class="underline-link" href="https://drive.google.com/drive/folders/1lANT8V1tJDRIfL3dq94GuwVXPxf7tOuG">Demo availale here!</a>
   used:
