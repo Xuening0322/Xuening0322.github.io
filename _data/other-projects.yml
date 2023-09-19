@@ -1,3 +1,12 @@
+- name: MiniTorch: Machine Learning Framework Development
+  url: https://github.com/Xuening0322/mini-torch-mle
+  code: https://github.com/Xuening0322/mini-torch-mle
+  description: A pure Python re-implementation of the Torch API
+  used:
+    - thing: Python
+    - thing: Numba
+    - thing: Pytest
+
 - name: Smart Music Production System
   url: https://github.com/Humming-Tacos
   code: https://github.com/Humming-Tacos
@@ -8,3 +17,24 @@
     - thing: Alibaba Cloud ECS
     - thing: RESTful APIs
     - thing: Docker
+
+- name: Student Social Media Platform Application
+  url: https://github.com/SonicHollow/SonicHollowForum
+  code: https://github.com/SonicHollow/SonicHollowForum
+  description: A university social media platform that allows students to post, like, and customize profiles, with an admin system for database CRUD operations.
+  used:
+    - thing: Spring Boot
+    - thing: JQuery
+    - thing: Redis
+    - thing: Mybatis
+    - thing: Alibaba Cloud ECS
+    - thing: Docker
+
+- name: File Synchronization Application 
+  url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
+  code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
+  description: An automated file synchronization tool using a custom application-layer protocol, supporting 500MB transmissions with breakpoint resumption and dynamic port allocation.
+  used:
+    - thing: Python
+    - thing: Socket
+    - thing: TCP/UDP
