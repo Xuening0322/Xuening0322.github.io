@@ -1,11 +1,11 @@
-- name: MiniTorch
-  url: https://github.com/Xuening0322/mini-torch-mle
-  code: https://github.com/Xuening0322/mini-torch-mle
-  description: A PyTorch-like machine learning framework, with pure Python re-implementation of the Torch API. 
-  used:
-    - thing: Python
-    - thing: Numba
-    - thing: Pytest
+# - name: MiniTorch
+#   url: https://github.com/Xuening0322/mini-torch-mle
+#   code: https://github.com/Xuening0322/mini-torch-mle
+#   description: A PyTorch-like machine learning framework, with pure Python re-implementation of the Torch API. 
+#   used:
+#     - thing: Python
+#     - thing: Numba
+#     - thing: Pytest
 
 - name: Smart Music Production System
   url: https://github.com/Humming-Tacos
