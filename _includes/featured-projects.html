@@ -1,47 +1,18 @@
-<section class="section featured-projects">
+<section class="section other-projects">
   <div class="section__title">Featured Projects</div>
   <div class="section__content">
-    <div class="project minitorch">
-      <figure class="project__pic">
-        <a href="https://github.com/Xuening0322/mini-torch-mle" target="_blank">
-          <img src="{{site.baseurl}}/img/featured/minitorch/minitorch.png" class="responsive" alt="">
-        </a>
-      </figure>
-      <figcaption class="project__caption">
-        <div class="project__name">
-          <a href="https://github.com/Xuening0322/mini-torch-mle" target="_blank">MiniTorch</a>
-        </div>
-        <p>A PyTorch-like machine learning framework, with pure Python re-implementation of the Torch API. </p>
-      </figcaption>
+    {% for project in site.data.featured-projects %}
+    <div class="project">
+      <div class="project__name">
+        <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+      </div>
+      <p>{{project.description}}</p>
+      <div class="project__used">
+        {% for item in project.used %}
+        <span class="project__used__item">{{item.thing}}</span>
+        {% endfor %}
+      </div>
     </div>
-    <div class="project__used" style="margin-top: -50px; margin-bottom: 50px;">
-      <span class="project__used__item">Python</span>
-      <span class="project__used__item">Numba</span>
-      <span class="project__used__item">Pytest</span>
-    </div>
-
-    <div class="project hummingtacos">
-      <figure class="project__pic">
-        <a href="https://github.com/Humming-Tacos" target="_blank">
-          <img src="{{site.baseurl}}/img/featured/hummingtacos/hummingtacos.png" class="responsive" alt="">
-        </a>
-      </figure>
-      <figcaption class="project__caption">
-        <div class="project__name">
-          <a href="https://github.com/Humming-Tacos" target="_blank">Smart Music Production System</a>
-        </div>
-        <p>An “AI Songwriter” application which generates melodies and piano accompaniments based on user's vocal input. An end-to-end pipeline integrating Singing Voice Transcrition, AI Composition and Real-time Music Synthesis.</p>
-      </figcaption>
-    </div>
-    <a class="underline-link" href="https://drive.google.com/drive/folders/1lANT8V1tJDRIfL3dq94GuwVXPxf7tOuG">Demo availale here!</a>
-    <div class="project__used" style="margin-top: -50px; margin-bottom: 50px;">
-      <span class="project__used__item">PyTorch</span>
-      <span class="project__used__item">Flask</span>
-      <span class="project__used__item">Alibaba Cloud ECS</span>
-      <span class="project__used__item">RESTful APIs</span>
-      <span class="project__used__item">Docker</span>
-    </div>
-
+    {% endfor %}
   </div>
-
 </section>
