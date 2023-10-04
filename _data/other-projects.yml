@@ -1,7 +1,7 @@
-- name: MiniTorch&#58 Machine Learning Framework Development
+- name: MiniTorch
   url: https://github.com/Xuening0322/mini-torch-mle
   code: https://github.com/Xuening0322/mini-torch-mle
-  description: A pure Python re-implementation of the Torch API
+  description: A PyTorch-like machine learning framework, with pure Python re-implementation of the Torch API. 
   used:
     - thing: Python
     - thing: Numba
