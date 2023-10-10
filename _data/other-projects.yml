@@ -9,7 +9,7 @@
     - thing: HTML
     - thing: CSS
 
-- name: Secure Image Steganography Tool (PIPLUP)
+- name: Secure Image Steganography Tool
   url: https://github.com/random-aes-group/PIPLUP
   code: https://github.com/random-aes-group/PIPLUP
   description: An enhanced image steganography solution utilizing LSB technique, AES encryption, and a unique Pixel-location Image Password mechanism, aimed at securely transmitting hidden messages within images while ensuring imperceptibility.
@@ -37,4 +37,5 @@
   used:
     - thing: Python
     - thing: Socket
-    - thing: TCP/UDP
+    - thing: TCP
+    - thing: UDP
