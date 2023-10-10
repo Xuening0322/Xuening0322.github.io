@@ -18,7 +18,7 @@
 #     - thing: RESTful APIs
 #     - thing: Docker
 
-- name: Student Social Media Platform Application
+- name: Social Media Platform Application
   url: https://github.com/SonicHollow/SonicHollowForum
   code: https://github.com/SonicHollow/SonicHollowForum
   description: A university social media platform that allows students to post, like, and customize profiles, with an admin system for database CRUD operations.
