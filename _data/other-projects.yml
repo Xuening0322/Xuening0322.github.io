@@ -1,27 +1,27 @@
-# - name: MiniTorch
-#   url: https://github.com/Xuening0322/mini-torch-mle
-#   code: https://github.com/Xuening0322/mini-torch-mle
-#   description: A PyTorch-like machine learning framework, with pure Python re-implementation of the Torch API. 
-#   used:
-#     - thing: Python
-#     - thing: Numba
-#     - thing: Pytest
+- name: E-commerce Admin System
+  url: https://github.com/E-commerce-Admin/E-commerce-Admin-System
+  code: https://github.com/E-commerce-Admin/E-commerce-Admin-System
+  description: A web-based e-commerce management system, facilitating the handling of products, categories, orders, coupons, addresses, and users.
+  used:
+    - thing: PHP (XAMPP)
+    - thing: MySQL
+    - thing: Bootstrap
+    - thing: HTML
+    - thing: CSS
 
-# - name: Smart Music Production System
-#   url: https://github.com/Humming-Tacos
-#   code: https://github.com/Humming-Tacos
-#   description: An “AI Songwriter” application which generates melodies and piano accompaniments based on user’s vocal input. An end-to-end pipeline integrating Singing Voice Transcrition, AI Composition and Real-time Music Synthesis. <a class="underline-link" href="https://drive.google.com/drive/folders/1lANT8V1tJDRIfL3dq94GuwVXPxf7tOuG">Demo availale here!</a>
-#   used:
-#     - thing: PyTorch
-#     - thing: Flask
-#     - thing: Alibaba Cloud ECS
-#     - thing: RESTful APIs
-#     - thing: Docker
+- name: Secure Image Steganography Tool (PIPLUP)
+  url: https://github.com/random-aes-group/PIPLUP
+  code: https://github.com/random-aes-group/PIPLUP
+  description: An enhanced image steganography solution utilizing LSB technique, AES encryption, and a unique Pixel-location Image Password mechanism, aimed at securely transmitting hidden messages within images while ensuring imperceptibility.
+  used:
+    - thing: Python
+    - thing: PyAES library
+    - thing: LSB Steganography
 
 - name: Social Media Platform Application
   url: https://github.com/SonicHollow/SonicHollowForum
   code: https://github.com/SonicHollow/SonicHollowForum
-  description: A university social media platform that allows students to post, like, and customize profiles, with an admin system for database CRUD operations.
+  description: A specialized university social media platform enabling students to post, engage with content, and customize profiles, alongside an admin system for streamlined database CRUD operations.
   used:
     - thing: Spring Boot
     - thing: JQuery
@@ -33,7 +33,7 @@
 - name: File Synchronization Application 
   url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
   code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  description: An automated file synchronization tool using a custom application-layer protocol, supporting 500MB transmissions with breakpoint resumption and dynamic port allocation.
+  description: A robust file synchronization tool employing a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
   used:
     - thing: Python
     - thing: Socket
