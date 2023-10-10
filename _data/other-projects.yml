@@ -3,7 +3,7 @@
   code: https://github.com/E-commerce-Admin/E-commerce-Admin-System
   description: A web-based e-commerce management system, facilitating the handling of products, categories, orders, coupons, addresses, and users.
   used:
-    - thing: PHP (XAMPP)
+    - thing: PHP
     - thing: MySQL
     - thing: Bootstrap
     - thing: HTML
