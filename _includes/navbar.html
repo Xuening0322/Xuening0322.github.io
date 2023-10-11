@@ -1,32 +1,36 @@
 <!-- _includes/navbar.html -->
 <style>
-    /* Adjusted styles to match footer */
     #navbar {
         position: fixed;
-        top: 0;
+        margin-top: 0;
         width: 100%;
-        background-color: transparent; /* Transparent background */
+        background-color: lightgray;
         overflow: auto;
-        transition: top 0.3s; /* Transition effect */
+        transition: top 0.3s;
+        font-family: 'Inconsolata', monospace; /* Updated font-family */
     }
 
     #navbar ul {
         margin: 0;
         padding: 0;
         list-style-type: none;
+        display: flex; /* Updated layout */
+        justify-content: space-around; /* Updated layout */
     }
 
     #navbar li {
-        float: left;
+        float: none; /* Updated layout */
     }
 
     #navbar a {
         display: block;
-        color: black; /* Matching text color with footer */
+        color: black;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-weight: normal; /* Non-bold text */
+        font-weight: normal;
+        background-color: transparent; /* Updated background color */
+        transition: background-color 0.3s; /* Updated transition effect */
     }
 
     #navbar a:hover {
@@ -34,29 +38,18 @@
         color: black;
     }
 
-    /* Smooth Scroll */
-    html {
-        scroll-behavior: smooth;
-    }
-
     #navbar a.active {
         background-color: #d0d0d0;
-    }
-
-    /* Fix margin-top issue */
-    body {
-        margin-top: -20px; /* Adjust value as needed */
     }
 </style>
 
 <script>
-    /* Script to hide navbar on scroll down */
     let lastScrollTop = 0;
     window.addEventListener("scroll", () => {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         if (scrollTop > lastScrollTop){
             // On scroll down, hide navbar
-            document.getElementById("navbar").style.top = "-50px"; /* Adjust value as needed */
+            document.getElementById("navbar").style.top = "-50px";
         } else {
             // On scroll up, show navbar
             document.getElementById("navbar").style.top = "0";
@@ -76,3 +69,6 @@
         <li><a href="#other-projects">Other Projects</a></li>
     </ul>
 </nav>
+
+
+

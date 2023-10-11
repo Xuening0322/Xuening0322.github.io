@@ -4,26 +4,28 @@ layout: default
 
 <style>
   #navbar {
-      margin-top: 30px; /* Adjusted margin to prevent overlap with switch button */
-      position: fixed;
-      top: 0;
-      width: 100%;
-      background-color: lightgray; /* Updated background color */
-      overflow: auto;
-  }
+    margin-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightgray;
+    overflow: auto;
+    font-family: 'Inconsolata', monospace; /* Updated font-family */
+}
 
-  #navbar a {
-      display: block;
-      color: black; /* Updated text color */
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-weight: normal; /* Updated font weight */
-  }
+#navbar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: normal;
+    transition: background-color 0.3s; /* Added transition effect */
+}
 
-  #navbar a.active {
-      background-color: #d0d0d0; /* Updated background color for active link */
-  }
+#navbar a.active {
+    background-color: #d0d0d0;
+}
 
   .project__used__item {
       display: inline-block;
