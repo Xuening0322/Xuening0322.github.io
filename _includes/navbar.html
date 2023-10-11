@@ -1,12 +1,13 @@
 <!-- _includes/navbar.html -->
 <style>
-    /* navbar.css or in your existing css file */
+    /* Adjusted styles to match footer */
     #navbar {
         position: fixed;
         top: 0;
         width: 100%;
-        background-color: lightgray; /* Updated background color */
+        background-color: transparent; /* Transparent background */
         overflow: auto;
+        transition: top 0.3s; /* Transition effect */
     }
 
     #navbar ul {
@@ -21,11 +22,11 @@
 
     #navbar a {
         display: block;
-        color: black; /* Updated text color */
+        color: black; /* Matching text color with footer */
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-weight: normal; /* Updated font weight */
+        font-weight: normal; /* Non-bold text */
     }
 
     #navbar a:hover {
@@ -39,10 +40,30 @@
     }
 
     #navbar a.active {
-        background-color: #d0d0d0; /* Updated background color for active link */
+        background-color: #d0d0d0;
     }
 
+    /* Fix margin-top issue */
+    body {
+        margin-top: -20px; /* Adjust value as needed */
+    }
 </style>
+
+<script>
+    /* Script to hide navbar on scroll down */
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", () => {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop){
+            // On scroll down, hide navbar
+            document.getElementById("navbar").style.top = "-50px"; /* Adjust value as needed */
+        } else {
+            // On scroll up, show navbar
+            document.getElementById("navbar").style.top = "0";
+        }
+        lastScrollTop = scrollTop;
+    });
+</script>
 
 <nav id="navbar">
     <ul>
