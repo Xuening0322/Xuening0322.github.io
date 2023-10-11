@@ -40,3 +40,14 @@
     - thing: Socket
     - thing: TCP
     - thing: UDP
+
+- name: My Personal Blog
+  url: https://github.com/Xuening0322/blog
+  code: https://github.com/Xuening0322/blog
+  description: My former website, built with Hexo (powered by Node.js), styled using HTML and CSS to provide a clean and engaging user interface.
+  used:
+    - thing: Hexo
+    - thing: Node.js
+    - thing: HTML
+    - thing: CSS
+    - thing: Markdown
