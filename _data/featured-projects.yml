@@ -4,8 +4,10 @@
   description: A machine learning framework inspired by PyTorch, re-engineered using pure Python to closely mirror the Torch API. 
   used:
     - thing: Python
+    - thing: PyTorch
     - thing: Numba
     - thing: Pytest
+    - thing: Streamlit
 
 - name: Smart Music Production System
   url: https://github.com/Humming-Tacos
