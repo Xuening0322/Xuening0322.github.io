@@ -63,13 +63,22 @@
     window.addEventListener("scroll", () => {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         if (scrollTop > lastScrollTop){
-            // On scroll down, hide navbar
             document.getElementById("navbar").style.top = "-50px";
         } else {
-            // On scroll up, show navbar
             document.getElementById("navbar").style.top = "0";
         }
         lastScrollTop = scrollTop;
+
+        const navbarLinks = document.querySelectorAll('#navbar a');
+        navbarLinks.forEach(link => {
+            const target = document.querySelector(link.getAttribute('href'));
+            const rect = target.getBoundingClientRect();
+            if (rect.top <= 0 && rect.bottom >= 0) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
     });
 </script>
 
