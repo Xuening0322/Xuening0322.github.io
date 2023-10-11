@@ -31,16 +31,6 @@
     - thing: Alibaba Cloud ECS
     - thing: Docker
 
-- name: File Synchronization Application 
-  url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  description: A file synchronization tool using a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
-  used:
-    - thing: Python
-    - thing: Socket
-    - thing: TCP
-    - thing: UDP
-
 - name: My Personal Blog
   url: https://github.com/Xuening0322/blog
   code: https://github.com/Xuening0322/blog
