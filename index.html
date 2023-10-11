@@ -3,50 +3,89 @@ layout: default
 ---
 
 <style>
+  #navbar {
+      margin-top: 30px; /* Adjusted margin to prevent overlap with switch button */
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: lightgray; /* Updated background color */
+      overflow: auto;
+  }
+
+  #navbar a {
+      display: block;
+      color: black; /* Updated text color */
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: normal; /* Updated font weight */
+  }
+
+  #navbar a.active {
+      background-color: #d0d0d0; /* Updated background color for active link */
+  }
+
   .project__used__item {
-    display: inline-block;
-    margin: 3px 3px 3px 0;
-    font-family: Inconsolata,monospace;
-    font-size: .75rem;
-    font-weight: 700;
-    padding: 2px 7px;
-    border-radius: 3px;
-    color: #007bff;
-    border: 1px solid #007bff;
-    background: 0 0;
-}
+      display: inline-block;
+      margin: 3px 3px 3px 0;
+      font-family: Inconsolata,monospace;
+      font-size: .75rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 3px;
+      color: #007bff;
+      border: 1px solid #007bff;
+      background: 0 0;
+  }
+
   img.responsive {
-    width: 100%;
-    height: auto;
+      width: 100%;
+      height: auto;
   }
 </style>
 
 <script>
   window.addEventListener('scroll', () => {
-    const navbarLinks = document.querySelectorAll('#navbar a');
-    navbarLinks.forEach(link => {
-      const target = document.querySelector(link.getAttribute('href'));
-      const rect = target.getBoundingClientRect();
-      if (rect.top <= 0 && rect.bottom >= 0) {
-        link.classList.add('active');
-      } else {
-        link.classList.remove('active');
-      }
-    });
+      const navbarLinks = document.querySelectorAll('#navbar a');
+      navbarLinks.forEach(link => {
+          const target = document.querySelector(link.getAttribute('href'));
+          const rect = target.getBoundingClientRect();
+          if (rect.top <= 0 && rect.bottom >= 0) {
+              link.classList.add('active');
+          } else {
+              link.classList.remove('active');
+          }
+      });
   });
 </script>
 
-
 {% include navbar.html %}
+
 <div id="site">
   {% include switch.html %}
-  {% include intro.html %}
-  {% include background.html %}
-  {% include education.html %}
-  {% include experience.html %}
-  {% include skills.html %}
-  {% include featured-projects.html %}
-  {% include other-projects.html %}
+
+  <div id="intro">
+    {% include intro.html %}
+  </div>
+  <div id="background">
+    {% include background.html %}
+  </div>
+  <div id="education">
+    {% include education.html %}
+  </div>
+  <div id="experience">
+    {% include experience.html %}
+  </div>
+  <div id="skills">
+    {% include skills.html %}
+  </div>
+  <div id="featured-projects">
+    {% include featured-projects.html %}
+  </div>
+  <div id="other-projects">
+    {% include other-projects.html %}
+  </div>
+
   {% include footer.html %}
   {% include top-button.html %}
 </div>
