@@ -15,8 +15,9 @@
   description: An enhanced image steganography solution utilizing LSB technique, AES encryption, and a unique Pixel-location Image Password mechanism, aimed at securely transmitting hidden messages within images while ensuring imperceptibility.
   used:
     - thing: Python
-    - thing: PyAES library
-    - thing: LSB Steganography
+    - thing: PyAES
+    - thing: OpenCV
+    - thing: GUI
 
 - name: Social Media Platform Application
   url: https://github.com/SonicHollow/SonicHollowForum

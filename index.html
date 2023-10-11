@@ -21,13 +21,30 @@ layout: default
   }
 </style>
 
+<script>
+  window.addEventListener('scroll', () => {
+    const navbarLinks = document.querySelectorAll('#navbar a');
+    navbarLinks.forEach(link => {
+      const target = document.querySelector(link.getAttribute('href'));
+      const rect = target.getBoundingClientRect();
+      if (rect.top <= 0 && rect.bottom >= 0) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+  });
+</script>
+
+
+{% include navbar.html %}
 <div id="site">
   {% include switch.html %}
   {% include intro.html %}
   {% include background.html %}
   {% include education.html %}
-  {% include skills.html %}
   {% include experience.html %}
+  {% include skills.html %}
   {% include featured-projects.html %}
   {% include other-projects.html %}
   {% include footer.html %}
