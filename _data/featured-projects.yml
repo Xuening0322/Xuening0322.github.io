@@ -1,7 +1,7 @@
 - name: MiniTorch
   url: https://github.com/Xuening0322/mini-torch-mle
   code: https://github.com/Xuening0322/mini-torch-mle
-  description: A machine learning framework inspired by PyTorch, re-engineered using pure Python to closely mirror the Torch API. 
+  description: A machine learning framework inspired by PyTorch, with pure Python re-implementation of the Torch API. The final library can run Torch code and visualize tensors and training process.
   used:
     - thing: Python
     - thing: PyTorch

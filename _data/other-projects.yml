@@ -12,7 +12,7 @@
 - name: Secure Image Steganography Tool
   url: https://github.com/random-aes-group/PIPLUP
   code: https://github.com/random-aes-group/PIPLUP
-  description: An enhanced image steganography solution utilizing LSB technique, AES encryption, and a unique Pixel-location Image Password mechanism, aimed at securely transmitting hidden messages within images while ensuring imperceptibility.
+  description: An enhanced image steganography solution utilizing LSB (Least Significant Bit) technique, AES encryption, and a unique Pixel-location Image Password mechanism.
   used:
     - thing: Python
     - thing: PyAES
@@ -22,7 +22,7 @@
 - name: Social Media Platform Application
   url: https://github.com/SonicHollow/SonicHollowForum
   code: https://github.com/SonicHollow/SonicHollowForum
-  description: A specialized university social media platform enabling students to post, engage with content, and customize profiles, alongside an admin system for streamlined database CRUD operations.
+  description: A university social media platform enabling students to post, engage with content, and customize profiles, with an admin system for database CRUD operations.
   used:
     - thing: Spring Boot
     - thing: JQuery
@@ -34,7 +34,7 @@
 - name: File Synchronization Application 
   url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
   code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  description: A robust file synchronization tool employing a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
+  description: A file synchronization tool using a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
   used:
     - thing: Python
     - thing: Socket
@@ -44,7 +44,7 @@
 - name: My Personal Blog
   url: https://github.com/Xuening0322/blog
   code: https://github.com/Xuening0322/blog
-  description: My former website, built with Hexo (powered by Node.js), styled using HTML and CSS to provide a clean and engaging user interface.
+  description: My former website, built with Hexo (powered by Node.js), styled using HTML and CSS.
   used:
     - thing: Hexo
     - thing: Node.js
