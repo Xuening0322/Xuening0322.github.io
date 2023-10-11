@@ -20,6 +20,42 @@
         float: none;
     }
 
+    #navbar a {
+        position: relative;
+        display: inline-block;
+        color: blue !important; /* $blue */
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0 15px;
+        outline: none;
+    }
+
+    #navbar a:after {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: blue; /* $blue */
+        content: '';
+        opacity: 0;
+        transition: height 0.3s, opacity 0.3s, transform 0.3s;
+        transform: translateY(-5px);
+    }
+
+    #navbar a:hover:after,
+    #navbar a:focus:after {
+        height: 2px;
+        border-radius: 3px;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    .text {
+        font-size: 0.9rem;
+        display: inline;
+        letter-spacing: 1px;
+    }
 </style>
 
 <script>
@@ -39,15 +75,12 @@
 
 <nav id="navbar">
     <ul>
-        <li><a href="#intro"></a><span class="text">Intro</span></li>
-        <li><a href="#background">Background</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#featured-projects">Featured Projects</a></li>
-        <li><a href="#other-projects">Other Projects</a></li>
+        <li><a href="#intro"><span class="text">Intro</span></a></li>
+        <li><a href="#background"><span class="text">Background</span></a></li>
+        <li><a href="#education"><span class="text">Education</span></a></li>
+        <li><a href="#experience"><span class="text">Experience</span></a></li>
+        <li><a href="#skills"><span class="text">Skills</span></a></li>
+        <li><a href="#featured-projects"><span class="text">Featured Projects</span></a></li>
+        <li><a href="#other-projects"><span class="text">Other Projects</span></a></li>
     </ul>
 </nav>
-
-
-
