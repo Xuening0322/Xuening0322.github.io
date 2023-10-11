@@ -1,0 +1,17 @@
+<section class="section honor">
+    <div class="section__title">Honors</div>
+    <div class="section__content">
+      <div class="jobs">
+        {% for exp in site.data.honor %}
+        <div class="job">
+          <div class="time-place">
+            <div class="job__company">
+              <a href="{{exp.url}}" target="_blank">{{exp.title}}</a>  
+            </div>
+            <div class="job__time">{{exp.time}}</div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      </div>
+</section>

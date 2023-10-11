@@ -6,7 +6,7 @@
         padding: 20px;
         width: 100%;
         overflow: auto;
-        transition: top 0.3s;
+        transition: top 0.5s;
         z-index: 1000;
     }
     
@@ -20,7 +20,8 @@
         list-style-type: none;
         display: flex;
         justify-content: space-around;
-      }
+        flex-wrap: wrap; /* Allow items to wrap onto multiple lines on smaller screens */
+    }
 
     #navbar li {
         float: none;
@@ -62,17 +63,9 @@
         display: inline;
         letter-spacing: 1px;
     }
-
     @media (max-width: 768px) {
-        #navbar ul {
-          display: block;
-          text-align: center;  /* Center align text on mobile */
-        }
-        #navbar li {
-          margin-bottom: 10px;
-        }
-        .text {
-          font-size: 0.8rem;
+        #navbar {
+            visibility: hidden; /* Hide navbar on small screens */
         }
     }
 </style>
@@ -103,12 +96,12 @@
 
 <nav id="navbar">
     <ul>
-        <li><a href="#intro"><span class="text">Intro</span></a></li>
-        <li><a href="#background"><span class="text">Background</span></a></li>
+        <li><a href="#background"><span class="text">Introduction</span></a></li>
         <li><a href="#education"><span class="text">Education</span></a></li>
         <li><a href="#experience"><span class="text">Experience</span></a></li>
         <li><a href="#skills"><span class="text">Skills</span></a></li>
         <li><a href="#featured-projects"><span class="text">Featured Projects</span></a></li>
         <li><a href="#other-projects"><span class="text">Other Projects</span></a></li>
+        <li><a href="#honor"><span class="text">Honors</span></a></li>
     </ul>
 </nav>
