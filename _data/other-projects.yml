@@ -34,7 +34,7 @@
 - name: My Personal Blog
   url: https://github.com/Xuening0322/blog
   code: https://github.com/Xuening0322/blog
-  description: My previous website was constructed using Hexo (powered by Node.js), styled with HTML and CSS, and integrated with the Netease Music player.
+  description: My previous website, constructed using Hexo (powered by Node.js), styled with HTML and CSS, and integrated with the Netease Music player.
   used:
     - thing: Hexo
     - thing: Node.js
