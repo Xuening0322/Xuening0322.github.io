@@ -41,3 +41,14 @@
     - thing: HTML
     - thing: CSS
     - thing: Markdown
+
+- name: Computer Composition Identification Challenge
+  url: https://github.com/csmt-ccic-2021/CCIC
+  code: https://github.com/csmt-ccic-2021/CCIC
+  description: A data challenge dedicated to finding improved music generation models and objective evaluation models for a number of specified music styles, initiated by the Conference on Sound and Music Technology (CSMT) 2021. <a class="underline-link" href="https://csmt-ccic-2021.github.io/CCIC/">Website available here!</a>
+  used:
+    - thing: PyTorch
+    - thing: GitHub Pages
+    - thing: GitBook
+    - thing: HTML
+    - thing: CSS
