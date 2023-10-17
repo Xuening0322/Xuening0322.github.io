@@ -6,18 +6,18 @@
         padding: 40px;
         width: 100%;
         overflow: auto;
-        transition: top 0.01s;
         z-index: 1000;
         background-color: #fff;
+        opacity: 1; /* Ensure navbar is visible by default */
+        transition: opacity 0.3s; /* Smooth transition */
     }
     body.night #navbar {
         background-color: #171c28;
     }
     
-      #navbar.hidden {
-        visibility: hidden;
-      }
-    
+    #navbar.opaque {
+        opacity: 0;
+    }
       #navbar ul {
         margin: 0;
         padding: 0;
@@ -76,26 +76,27 @@
 
 <script>
     let lastScrollTop = 0;
-    window.addEventListener("scroll", () => {
-        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        if (scrollTop > lastScrollTop){
-            document.getElementById("navbar").classList.add('hidden');
-        } else {
-            document.getElementById("navbar").classList.remove('hidden');
-        }
-        lastScrollTop = scrollTop;
+window.addEventListener("scroll", () => {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if (scrollTop > lastScrollTop){
+        document.getElementById("navbar").classList.add('opaque'); // Hide navbar
+    } else {
+        document.getElementById("navbar").classList.remove('opaque'); // Show navbar
+    }
+    lastScrollTop = scrollTop;
 
-        const navbarLinks = document.querySelectorAll('#navbar a');
-        navbarLinks.forEach(link => {
-            const target = document.querySelector(link.getAttribute('href'));
-            const rect = target.getBoundingClientRect();
-            if (rect.top <= 0 && rect.bottom >= 0) {
-                link.classList.add('active');
-            } else {
-                link.classList.remove('active');
-            }
-        });
+    const navbarLinks = document.querySelectorAll('#navbar a');
+    navbarLinks.forEach(link => {
+        const target = document.querySelector(link.getAttribute('href'));
+        const rect = target.getBoundingClientRect();
+        if (rect.top <= 0 && rect.bottom >= 0) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
     });
+});
+
 </script>
 
 <nav id="navbar">
