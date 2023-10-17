@@ -8,8 +8,9 @@
         overflow: auto;
         z-index: 1000;
         background-color: #fff;
+        visibility: visible;
         opacity: 1;
-        transition: top 0.3s, opacity 0.3s; /* Adjusted the transition properties */
+        transition: visibility 0.3s, opacity 0.3s; /* Modified the transition properties */
     }
     body.night #navbar {
         background-color: #171c28;
@@ -71,20 +72,23 @@
         }
     }
 </style>
-
 <script>
     let lastScrollTop = 0;
+    const navbar = document.getElementById("navbar");
     window.addEventListener("scroll", () => {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
         if (scrollTop > lastScrollTop) {
             // Hide navbar on scroll down
-            document.getElementById("navbar").style.top = "-100px"; 
+            navbar.style.opacity = "0";
+            setTimeout(() => { navbar.style.visibility = "hidden"; }, 300);
         } else {
             // Show navbar on scroll up
-            document.getElementById("navbar").style.top = "0";
+            navbar.style.visibility = "visible";
+            navbar.style.opacity = "1";
         }
         lastScrollTop = scrollTop;
 
+        // Highlight active link code remains the same
         const navbarLinks = document.querySelectorAll('#navbar a');
         navbarLinks.forEach(link => {
             const target = document.querySelector(link.getAttribute('href'));
