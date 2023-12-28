@@ -1,3 +1,14 @@
+- name: Spotify Song Skips Prediction
+  url: https://github.com/Xuening0322/aml-song-skips-prediction
+  code: https://github.com/Xuening0322/aml-song-skips-prediction
+  description: A machine learning project focused on predicting song skips on Spotify, using algorithms like Gradient Boosted Trees, LSTM, and Transformers. 
+  used:
+    - thing: PHP
+    - thing: MySQL
+    - thing: Bootstrap
+    - thing: HTML
+    - thing: CSS
+
 - name: E-commerce Admin System
   url: https://github.com/E-commerce-Admin/E-commerce-Admin-System
   code: https://github.com/E-commerce-Admin/E-commerce-Admin-System
