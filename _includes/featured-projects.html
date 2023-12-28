@@ -6,28 +6,21 @@
       <div class="project__name">
         <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
       </div>
-      <!-- <p>{{project.description}}</p> -->
       <div class="project-card-sm" style="margin-top: 20px;">
         <div class="card-border-gradient"></div>
         <div class="card-container">
-          <img src="../img/featured/hummingtacos/hummingtacos.png" alt="">
+          <img src="../img/featured/{{project.image_name}}" alt="">
           <div class="wrapper">
-            <p>{{project.description}}</p>
+            <p style="margin-bottom: -20px;">{{project.description}}</p>
           </div>
         </div>
       </div>
-      <div class="project__used" style="margin-top: 50px;">
+      <div class="project__used" style="margin-top: 20px;">
         {% for item in project.used %}
         <span class="project__used__item">{{item.thing}}</span>
         {% endfor %}
       </div>
     </div>
-    <!-- <div class="project__image">
-      <img src="../img/featured/hummingtacos/hummingtacos.png" alt="Project image description">
-    </div>     -->
-
-
-
     {% endfor %}
   </div>
 </section>

@@ -2,6 +2,7 @@
   url: https://github.com/Xuening0322/mini-torch-mle
   code: https://github.com/Xuening0322/mini-torch-mle
   description: A machine learning framework inspired by PyTorch, with pure Python re-implementation of the Torch API. The final library can run Torch code and visualize tensors and training process.
+  image_name: ../img/featured/minitorch/minitorch_mnist.png
   used:
     - thing: Python
     - thing: PyTorch
@@ -13,6 +14,7 @@
   url: https://github.com/Humming-Tacos
   code: https://github.com/Humming-Tacos
   description: An "AI Songwriter" application generating melodies and piano accompaniments from user vocal input, through an end-to-end pipeline of Singing Voice Transcription, AI Composition, and Real-time Music Synthesis. <a class="underline-link" href="https://drive.google.com/drive/folders/1lANT8V1tJDRIfL3dq94GuwVXPxf7tOuG">Demo available here!</a>
+  image_name: ../img/featured/hummingtacos/hummingtacos.png
   used:
     - thing: PyTorch
     - thing: Flask
@@ -24,6 +26,7 @@
   url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
   code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
   description: A file synchronization tool using a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
+  image_name: ../img/featured/minitorch/minitorch_mnist.png  
   used:
     - thing: Python
     - thing: Socket
