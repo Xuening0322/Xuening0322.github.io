@@ -23,17 +23,19 @@
 
 <style>
   .image-container {
-    width: 100%; /* Adjust the width as necessary */
-    display: flex;
-    justify-content: center; /* This will center your image */
-    align-items: center; /* This will center your image vertically */
-    height: 2828px; /* Fixed height */
-    overflow: hidden; /* In case the image is too large */
+    width: 2828px; /* Set the width of the image container */
+    height: 2828px; /* Set the height of the image container */
+    position: absolute; /* Position it absolutely within the header */
+    right: 0; /* Align to the right */
+    top: 50%; /* Center it vertically */
+    transform: translateY(-50%); /* Offset the image by half its height for vertical centering */
+    overflow: hidden; /* Hide any overflow */
   }
   
   .image-container img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
   }
+  
 </style>
 
