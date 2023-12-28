@@ -11,7 +11,7 @@
         <div class="card-container">
           <img src="{{project.image_name}}" alt="">
           <div class="wrapper">
-            <p style="margin-bottom: -20px;">{{project.description}}</p>
+            <p>{{project.description}}</p>
           </div>
         </div>
       </div>
@@ -71,26 +71,12 @@
     
     transition: opacity 0.3s ;
     opacity: 0;
-      
-    animation: animate-border-gradient 5s infinite linear;
   }
   
   .project-card-sm:hover .card-border-gradient {
     opacity: 1;
   }
-  
-  @keyframes animate-border-gradient {
-    0% {
-      transform: rotate(0deg);
-      transform-origin: bottom;
-    }
-    100% {
-      transform: rotate(360deg) ;
-      transform-origin: bottom;
-    }
-  }
-  
-  
+ 
   .project-card-sm .card-container {
     display: grid;
     grid-template-areas: "img img text text text";
