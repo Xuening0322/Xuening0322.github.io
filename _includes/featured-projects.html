@@ -6,14 +6,16 @@
       <div class="project__name">
         <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
       </div>
-      <div class="project-card-sm" style="margin-top: 20px;">
-        <div class="card-container" href="{{project.url}}">
-          <img src="{{project.image_name}}" alt="">
-          <div class="wrapper">
-            <p style="margin-bottom: 0px;">{{project.description}}</p>
+      <a  href="{{project.url}}">
+        <div class="project-card-sm" style="margin-top: 20px;">
+          <div class="card-container">
+            <img src="{{project.image_name}}" alt="">
+            <div class="wrapper">
+              <p style="margin-bottom: 0px;">{{project.description}}</p>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
       <div class="project__used" style="margin-top: 20px;">
         {% for item in project.used %}
         <span class="project__used__item">{{item.thing}}</span>
