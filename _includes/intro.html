@@ -23,8 +23,8 @@
 
 <style>
   .image-container {
-    width: 450px; /* Set the width of the image container */
-    height: 450px; /* Set the height of the image container */
+    width: 500px; /* Set the width of the image container */
+    height: 500px; /* Set the height of the image container */
     position: absolute; /* Position it absolutely within the header */
     right: 200px; /* Align to the right */
     top: 50%; /* Center it vertically */
@@ -37,5 +37,10 @@
     max-width: 100%;
   }
   
+  /* Hide image-container on mobile devices */
+  @media (max-width: 768px) {
+    .image-container {
+      display: none;
+    }
+  }
 </style>
-
