@@ -8,6 +8,10 @@
     <span class="emoji technologist"></span>
   </h3>
 
+  <div class="image-container">
+    <img src="../img/cover.png" alt="Descriptive text about the image">
+  </div>
+
   <h3 class="intro__contact">
     <span>Get in touch </span>
     <span class="emoji pointer"></span>
@@ -16,3 +20,20 @@
     </span>
   </h3>
 </header>
+
+<style>
+  .image-container {
+    width: 100%; /* Adjust the width as necessary */
+    display: flex;
+    justify-content: center; /* This will center your image */
+    align-items: center; /* This will center your image vertically */
+    height: 2828px; /* Fixed height */
+    overflow: hidden; /* In case the image is too large */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>
+
