@@ -6,7 +6,16 @@
       <div class="project__name">
         <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
       </div>
-      <p>{{project.description}}</p>
+      <!-- <p>{{project.description}}</p> -->
+      <div class="project-card-sm">
+        <div class="card-border-gradient"></div>
+        <div class="card-container">
+          <img src="https://unblast.com/wp-content/uploads/2018/08/Gradient-Mesh-22.jpg" alt="">
+          <div class="wrapper">
+            <p>{{project.description}}</p>
+          </div>
+        </div>
+      </div>
       <div class="project__used">
         {% for item in project.used %}
         <span class="project__used__item">{{item.thing}}</span>
@@ -17,16 +26,7 @@
       <img src="../img/featured/hummingtacos/hummingtacos.png" alt="Project image description">
     </div>     -->
 
-    <div class="project-card-sm">
-      <div class="card-border-gradient"></div>
-      <div class="card-container">
-        <img src="https://unblast.com/wp-content/uploads/2018/08/Gradient-Mesh-22.jpg" alt="">
-        <div class="wrapper">
-          <h1>Project Name</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dignissimos dolore. Blanditiis odit, nobis eius molestiae, rerum iure atque aliquam </p>
-        </div>
-      </div>
-    </div>
+
 
     {% endfor %}
   </div>
