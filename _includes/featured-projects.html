@@ -9,7 +9,7 @@
       <div class="project-card-sm" style="margin-top: 20px;">
         <div class="card-border-gradient"></div>
         <div class="card-container">
-          <img src="../img/featured/{{project.image_name}}" alt="">
+          <img src="{{project.image_name}}" alt="">
           <div class="wrapper">
             <p style="margin-bottom: -20px;">{{project.description}}</p>
           </div>
@@ -56,7 +56,7 @@
   
   .project-card-sm:hover {
     transform: scale(1.025);
-    box-shadow: 0 0 100px -30px #6f45dc;  
+    box-shadow: 0 0 100px -30px #a2d2ff;  
   }
   
   
@@ -67,7 +67,7 @@
     height: 300%;
     width: 10rem;
     z-index: -1;
-    background: linear-gradient(to right, transparent, #9272e4, transparent);
+    background: linear-gradient(to right, transparent, #a2d2ff, transparent);
     
     transition: opacity 0.3s ;
     opacity: 0;
@@ -97,7 +97,6 @@
     gap: 1rem;
     padding: 1.5rem;
     border-radius: 12px;
-    background-color: hsl(0, 0%, 10%);
     color: rgba(255, 255, 255, 0.7);
   }
   
