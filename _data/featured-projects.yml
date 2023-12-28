@@ -26,7 +26,7 @@
   url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
   code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
   description: A file synchronization tool using a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
-  image_name: ../img/featured/minitorch/minitorch_mnist.png  
+  image_name: ../img/featured/filesharing/filesharing.png
   used:
     - thing: Python
     - thing: Socket
