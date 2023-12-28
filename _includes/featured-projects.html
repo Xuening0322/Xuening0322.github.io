@@ -13,9 +13,21 @@
         {% endfor %}
       </div>
     </div>
-    <div class="project__image">
+    <!-- <div class="project__image">
       <img src="../img/featured/hummingtacos/hummingtacos.png" alt="Project image description">
-    </div>    
+    </div>     -->
+
+    <div class="project-card-sm">
+      <div class="card-border-gradient"></div>
+      <div class="card-container">
+        <img src="https://unblast.com/wp-content/uploads/2018/08/Gradient-Mesh-22.jpg" alt="">
+        <div class="wrapper">
+          <h1>Project Name</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, dignissimos dolore. Blanditiis odit, nobis eius molestiae, rerum iure atque aliquam </p>
+        </div>
+      </div>
+    </div>
+
     {% endfor %}
   </div>
 </section>
@@ -23,12 +35,118 @@
 
 <style>
   .project__image {
-    float: center; /* Align the image to the right */
-    width: 100%; /* Use 50% of the container's width for the image */
+    float: center;
+    width: 100%;
   }
   
   .project__image img {
-    width: 100%; /* Make the image fill its container */
-    height: auto; /* Keep the image's aspect ratio */
+    width: 100%;
+    height: auto;
   }
+
+
+.project-card-sm {
+  /*   max-width: 600px; */
+    max-width: 500px;
+    padding: 2.5px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: transform 0.4s, box-shadow 0.4s ;
+  }
+  
+  .project-card-sm:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 100px -30px #6f45dc;  
+  }
+  
+  
+  .project-card-sm .card-border-gradient {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    height: 300%;
+    width: 10rem;
+    z-index: -1;
+    background: linear-gradient(to right, transparent, #9272e4, transparent);
+    
+    transition: opacity 0.3s ;
+    opacity: 0;
+      
+    animation: animate-border-gradient 5s infinite linear;
+  }
+  
+  .project-card-sm:hover .card-border-gradient {
+    opacity: 1;
+  }
+  
+  @keyframes animate-border-gradient {
+    0% {
+      transform: rotate(0deg);
+      transform-origin: bottom;
+    }
+    100% {
+      transform: rotate(360deg) ;
+      transform-origin: bottom;
+    }
+  }
+  
+  
+  .project-card-sm .card-container {
+    display: grid;
+    grid-template-areas: "img img text text text";
+    gap: 1rem;
+    padding: 0.75rem;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 10%);
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .card-container img {
+    grid-area: img;
+  /*   height: 100%; */
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 8px;
+    
+    transition: transform 0.3s;
+  }
+  
+  .card-container .wrapper {
+    grid-area: text;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .card-container .wrapper h1 {
+    font-size: 1.1rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-container .wrapper button {
+    background: none;
+    border: none;
+    
+    font: inherit;
+    color: #fff;
+  /*   background-color: red; */
+    margin-top: 1.4rem;
+    
+  }
+  
+  .card-container .wrapper button i {
+    margin-left: .5rem;
+    transition: margin 0.3s;
+  }
+  .card-container:hover button i {margin-left: 1rem;}
 </style>
