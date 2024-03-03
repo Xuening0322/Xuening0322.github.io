@@ -15,13 +15,14 @@ mlds:
   - item: Apache Spark
 
 web_technologies:
-  - item: HTML
-  - item: CSS
-  - item: Node.js
   - item: React
   - item: JQuery
-  - item: Flask
   - item: Spring Boot
+  - item: Flask
+  - item: Django
+  - item: Node.js
+  - item: HTML
+  - item: CSS
 
 
 tools_and_platforms:
@@ -29,7 +30,7 @@ tools_and_platforms:
   - item: Git & GitHub
   - item: Chrome DevTools
   - item: Postman
-  - item: Amazon Web Services (AWS)
+  - item: Amazon Web Services
   - item: Alibaba Cloud Services
   - item: ActiveMQ
 
