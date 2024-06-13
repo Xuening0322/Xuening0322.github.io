@@ -1,10 +1,10 @@
 languages:
   - item: Python
-  - item: Java
-  - item: C++
   - item: JavaScript
-  - item: SQL
+  - item: C++
+  - item: Java
   - item: PHP
+  - item: SQL
 
 mlds:
   - item: PyTorch
@@ -16,21 +16,22 @@ mlds:
 
 web_technologies:
   - item: React
+  - item: Next.js
+  - item: Node.js
+  - item: Express.js
   - item: JQuery
   - item: Spring Boot
   - item: Flask
   - item: Django
-  - item: Node.js
-  - item: HTML
-  - item: CSS
 
 
 tools_and_platforms:
+  - item: AWS (EC2, S3, ECR, SageMaker)
+  - item: Google Cloud Storage
+  - item: Alibaba Cloud ECS
+  - item: Firebase
   - item: Bash
-  - item: Git & GitHub
-  - item: Chrome DevTools
+  - item: Git
   - item: Postman
-  - item: Amazon Web Services
-  - item: Alibaba Cloud Services
   - item: ActiveMQ
 
