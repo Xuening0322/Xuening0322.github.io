@@ -1,0 +1,48 @@
+- name: CAMeleon
+  url: https://github.com/Scaffolder666/scaffolder
+  code: https://github.com/Scaffolder666/scaffolder
+  description: A 3D tool for digital fabrication. Designed to optimize digital fabrication workflows. Built with my amazing friends at Cornell Tech.
+  image_name: ../img/featured/cameleon/cameleon.png
+  used:
+    - thing: JavaScript
+    - thing: Three.js
+    - thing: Node.js
+    - thing: HTML
+    - thing: CSS
+
+- name: Swing Up - Your Personal Baseball Swing Coach
+  url: https://github.com/HerStat-Heroes/herstatheroes-mvp
+  code: https://github.com/HerStat-Heroes/herstatheroes-mvp
+  description: A hackathon project - an AI-powered personal baseball swing coach that provides personalized analysis for players. Built with my amazing friends at Cornell Tech.
+  image_name: ../img/featured/swingup/swingup.jpg
+  used:
+    - thing: Python
+    - thing: Flask
+    - thing: HTML
+    - thing: CSS
+    - thing: Pandas
+    - thing: NumPy
+
+- name: MiniTorch
+  url: https://github.com/Xuening0322/mini-torch-mle
+  code: https://github.com/Xuening0322/mini-torch-mle
+  description: A machine learning framework inspired by PyTorch, with pure Python re-implementation of the Torch API. The final library can run Torch code and visualize tensors and training process.
+  image_name: ../img/featured/minitorch/minitorch_mnist.png
+  used:
+    - thing: Python
+    - thing: PyTorch
+    - thing: Numba
+    - thing: Pytest
+    - thing: Streamlit
+
+- name: File Synchronization Tool 
+  url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
+  code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
+  description: A file synchronization tool using a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
+  image_name: ../img/featured/filesharing/filesharing.png
+  used:
+    - thing: Python
+    - thing: Socket
+    - thing: TCP
+    - thing: UDP
+

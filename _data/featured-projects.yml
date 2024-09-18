@@ -1,16 +1,41 @@
-- name: MiniTorch
-  url: https://github.com/Xuening0322/mini-torch-mle
-  code: https://github.com/Xuening0322/mini-torch-mle
-  description: A machine learning framework inspired by PyTorch, with pure Python re-implementation of the Torch API. The final library can run Torch code and visualize tensors and training process.
-  image_name: ../img/featured/minitorch/minitorch_mnist.png
+- name: BeatSplitter
+  url: https://maxforlive.com/library/device/10505/tona-ai-beat-splitter
+  code: https://maxforlive.com/library/device/10505/tona-ai-beat-splitter
+  description: An AI-powered music tool designed for splitting beats and stems for production, built with my amazing team at <a class="underline-link" href="https://tona.ai">Tona.ai</a>. 
+  image_name: ../img/featured/beatsplitter/beatsplitter.png
+  used:
+    - thing: Max/MSP
+    - thing: Node.js
+    - thing: Express.js
+    - thing: Docker
+    - thing: AWS
+
+- name: Poem to Music Video App
+  url: https://github.com/Xuening0322/poem-to-video-app
+  code: https://github.com/Xuening0322/poem-to-video-app
+  description: A Next.js app that analyzes poems and generates music videos with voice narration, leveraging OpenAI, MusicGen, and Replicate APIs for media generation.
+  image_name: ../img/featured/poemtovideo/poemtovideo.png
+  used:
+    - thing: Next.js
+    - thing: OpenAI API
+    - thing: Replicate
+    - thing: FFmpeg
+    - thing: AWS
+    - thing: Docker
+
+- name: Spotify Song Skips Prediction
+  url: https://github.com/Xuening0322/aml-song-skips-prediction
+  code: https://github.com/Xuening0322/aml-song-skips-prediction
+  description: A machine learning project focused on predicting song skips on Spotify, using algorithms like Gradient Boosted Trees, LSTM, and Transformers. 
+  image_name: ../img/other/spotify/spotify_dataset.png
   used:
     - thing: Python
-    - thing: PyTorch
-    - thing: Numba
-    - thing: Pytest
-    - thing: Streamlit
-
-- name: Smart Music Production System
+    - thing: TensorFlow/Keras
+    - thing: Scikit-learn
+    - thing: Pandas
+    - thing: NumPy
+    
+- name: AI-powered Music Production System
   url: https://github.com/Humming-Tacos
   code: https://github.com/Humming-Tacos
   description: An "AI Songwriter" application generating melodies and piano accompaniments from user vocal input, through an end-to-end pipeline of Singing Voice Transcription, AI Composition, and Real-time Music Synthesis. <a class="underline-link" href="https://drive.google.com/drive/folders/1lANT8V1tJDRIfL3dq94GuwVXPxf7tOuG">Demo available here!</a>
@@ -21,14 +46,3 @@
     - thing: Alibaba Cloud ECS
     - thing: RESTful APIs
     - thing: Docker
-
-- name: File Synchronization Tool 
-  url: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  code: https://github.com/Xuening0322/Large-Efficient-Flexible-and-Trusty-LEFT-File-Sharing-Program
-  description: A file synchronization tool using a custom application-layer protocol, capable of handling 500MB transmissions with features like breakpoint resumption and dynamic port allocation.
-  image_name: ../img/featured/filesharing/filesharing.png
-  used:
-    - thing: Python
-    - thing: Socket
-    - thing: TCP
-    - thing: UDP

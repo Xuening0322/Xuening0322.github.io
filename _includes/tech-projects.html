@@ -1,0 +1,107 @@
+<section class="section other-projects">
+    <div class="section__title">Featured Tech Projects 👩‍💻 </div>
+    <div class="section__content">
+      {% for project in site.data.tech-projects %}
+      <div class="project">
+        <div class="project__name">
+          <a href="{{project.url}}" target="_blank" class="arrow-link">{{project.name}}</a>
+        </div>
+        <a style="font-weight: normal;" href="{{project.url}}">
+          <div class="project-card-sm" style="margin-top: 20px;">
+            <div class="card-container" href="{{project.url}}">
+              <img src="{{project.image_name}}" alt="">
+              <div class="wrapper">
+                <p style="margin-bottom: 0px;">{{project.description}}</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <div class="project__used" style="margin-top: 20px;">
+          {% for item in project.used %}
+          <span class="project__used__item">{{item.thing}}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  
+  
+  <style>
+    .project__image {
+      float: center;
+      width: 100%;
+    }
+    
+    .project__image img {
+      width: 100%;
+      height: auto;
+    }
+  
+  
+  .project-card-sm {
+      max-width: 600px;
+      padding: 2.5px;
+      border-radius: 15px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      transition: transform 0.4s, box-shadow 0.4s ;
+    }
+    
+    .project-card-sm:hover {
+      transform: scale(1.025);
+      box-shadow: 0 0 100px -30px #a2d2ff;  
+    }
+    
+    
+    .project-card-sm .card-border-gradient {
+      content: "";
+      position: absolute;
+      bottom: 50%;
+      height: 300%;
+      width: 10rem;
+      z-index: -1;
+      background: linear-gradient(to right, transparent, #a2d2ff, transparent);
+      transition: opacity 0.3s ;
+      opacity: 0;
+    }
+    
+    .project-card-sm:hover .card-border-gradient {
+      opacity: 1;
+    }
+   
+    .project-card-sm .card-container {
+      display: grid;
+      grid-template-areas: "img img text text text";
+      gap: 1rem;
+      padding: 1.5rem;
+      border-radius: 12px;
+    }
+    
+    .card-container img {
+      grid-area: img;
+      height: auto;
+      width: 100%;
+      border-radius: 8px;
+      
+      transition: transform 0.3s;
+    }
+    
+    .card-container .wrapper {
+      grid-area: text;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+    
+    .card-container .wrapper h1 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+  </style>
