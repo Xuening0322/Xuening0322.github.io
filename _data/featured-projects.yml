@@ -1,7 +1,7 @@
 - name: BeatSplitter
   url: https://maxforlive.com/library/device/10505/tona-ai-beat-splitter
   code: https://maxforlive.com/library/device/10505/tona-ai-beat-splitter
-  description: An AI-powered music tool designed for splitting beats and stems for production, built with my amazing team at <a class="underline-link" href="https://tona.ai">Tona.ai</a>. 
+  description: An AI-powered Ableton Live plugin designed for splitting stems for production, with a full machine learning inference pipeline on AWS. Built with my amazing team at <a class="underline-link" href="https://tona.ai">Tona.ai</a>. 
   image_name: ../img/featured/beatsplitter/beatsplitter.png
   used:
     - thing: Max/MSP
