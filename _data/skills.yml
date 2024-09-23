@@ -36,8 +36,9 @@ web_technologies:
 tools_and_platforms:
   - item: Docker
   - item: AWS (EC2, S3, ECR, SageMaker)
-  - item: GCP (Cloud Run, CDN, Load Balancer, Google Analytics)
+  - item: GCP (Cloud Run, CDN, Load Balancer)
   - item: Google Cloud Storage
+  - item: Google Analytics
   - item: Alibaba Cloud ECS
   - item: Firebase
   - item: Bash
