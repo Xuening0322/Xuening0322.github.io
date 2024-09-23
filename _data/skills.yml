@@ -1,10 +1,17 @@
 languages:
   - item: Python
   - item: JavaScript
+  - item: TypeScript
+  - item: SQL
   - item: C++
   - item: Java
   - item: PHP
-  - item: SQL
+  - item: C#
+  - item: Bash
+  - item: HTML
+  - item: CSS
+  - item: MATLAB
+  - item: Max/MSP
 
 mlds:
   - item: PyTorch
@@ -23,10 +30,13 @@ web_technologies:
   - item: Spring Boot
   - item: Flask
   - item: Django
-
+  - item: Three.js
+  - item: Plotly.js
 
 tools_and_platforms:
+  - item: Docker
   - item: AWS (EC2, S3, ECR, SageMaker)
+  - item: GCP (Cloud Run, CDN, Load Balancer, Google Analytics)
   - item: Google Cloud Storage
   - item: Alibaba Cloud ECS
   - item: Firebase
@@ -34,4 +44,6 @@ tools_and_platforms:
   - item: Git
   - item: Postman
   - item: ActiveMQ
-
+  - item: Supabase
+  - item: Vercel
+  - item: Render
