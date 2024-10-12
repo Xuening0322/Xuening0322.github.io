@@ -13,15 +13,6 @@
       </div>
 
       <div class="skillz__category">
-        <div class="skillz__category__label">Tools and Platforms</div>
-        <ul>
-          {% for tool in site.data.skills.tools_and_platforms %}
-          <li class="skillz__category__item">{{tool.item}}</li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      <div class="skillz__category">
         <div class="skillz__category__label">ML, DS &amp; DB</div>
         <ul>
           {% for mldss in site.data.skills.mlds %}
@@ -35,6 +26,15 @@
         <ul>
           {% for tech in site.data.skills.web_technologies %}
           <li class="skillz__category__item">{{tech.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="skillz__category">
+        <div class="skillz__category__label">Tools and Platforms</div>
+        <ul>
+          {% for tool in site.data.skills.tools_and_platforms %}
+          <li class="skillz__category__item">{{tool.item}}</li>
           {% endfor %}
         </ul>
       </div>

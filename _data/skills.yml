@@ -26,9 +26,10 @@ mlds:
   - item: GraphQL
   - item: SQLite
   - item: SQLAlchemy
+  - item: Redis
 
 web_technologies:
-  - item: React
+  - item: React.js
   - item: Next.js
   - item: Node.js
   - item: Express.js
@@ -38,19 +39,20 @@ web_technologies:
   - item: Django
   - item: Three.js
   - item: Plotly.js
+  - item: D3.js
+  - item: Bokeh
+
 
 tools_and_platforms:
   - item: Docker
-  - item: AWS (EC2, S3, ECR, SageMaker)
-  - item: GCP (Cloud Run, CDN, Load Balancer)
-  - item: Google Cloud Storage
-  - item: Google Analytics
-  - item: Alibaba Cloud ECS
-  - item: Firebase
-  - item: Bash
   - item: Git
-  - item: Postman
-  - item: ActiveMQ
+  - item: AWS
+  - item: GCP
+  - item: Bash
+  - item: AliCloud
+  - item: Firebase
   - item: Supabase
   - item: Vercel
   - item: Render
+  - item: Postman
+  - item: ActiveMQ
