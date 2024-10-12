@@ -20,6 +20,12 @@ mlds:
   - item: Keras
   - item: Pandas
   - item: Apache Spark
+  - item: MySQL
+  - item: PostgreSQL
+  - item: NoSQL
+  - item: GraphQL
+  - item: SQLite
+  - item: SQLAlchemy
 
 web_technologies:
   - item: React
