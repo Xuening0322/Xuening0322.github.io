@@ -10,7 +10,7 @@
     - thing: HTML
     - thing: CSS
 
-- name: Swing Up - Your Personal Baseball Swing Coach
+- name: Personal Baseball Swing Coach
   url: https://github.com/HerStat-Heroes/herstatheroes-mvp
   code: https://github.com/HerStat-Heroes/herstatheroes-mvp
   description: A hackathon project - an AI-powered personal baseball swing coach that provides personalized analysis for players. Built with my amazing friends at Cornell Tech.
