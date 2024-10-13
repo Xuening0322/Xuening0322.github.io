@@ -110,4 +110,13 @@
     height: auto;
     object-fit: contain;
   }
+
+  @media (max-width: 768px) {
+    .card-container img {
+      display: none;
+    }
+    .project-card-sm .card-container {
+      grid-template-areas: "text text text";
+    }
+  }
 </style>
