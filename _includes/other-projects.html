@@ -104,4 +104,14 @@
     font-weight: 800;
     line-height: 1;
   }
+
+  @media (max-width: 768px) {
+    .card-container img {
+      display: none;
+    }
+    .project-card-sm .card-container {
+      grid-template-areas: "text text text";
+    }
+  }
+  
 </style>
