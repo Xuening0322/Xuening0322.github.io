@@ -26,7 +26,7 @@
 - name: MeloStream Music App
   url: https://github.com/kyla2001/MeloStream2024
   code: https://github.com/kyla2001/MeloStream2024
-  description: A Next.js music streaming app built just for fun and learning Next.js. It calls the Spotify API and allows users to create, manage, and explore playlists. The app also includes Google user authentication and is hosted on Vercel. Built with my amazing friend at Cornell Tech.
+  description: A Next.js music streaming app built for learning Next.js. It calls the Spotify API and allows users to create, manage, and explore playlists. Built with my amazing friend at Cornell Tech.
   image_name: ../img/featured/melostream/melostream.png
   used:
     - thing: Next.js
@@ -46,7 +46,21 @@
     - thing: Scikit-learn
     - thing: Pandas
     - thing: NumPy
-    
+
+- name: Algorithmic Music Composition with Long-term Structure
+  url: https://xuening.wang/coming_soon
+  code: https://xuening.wang/coming_soon
+  description: My undergrad final year project where I built a system to compose full songs with rich, long-term structure. It lets you generate music by controlling everything from individual bars to entire sections, creating flexible and customizable compositions. The project combines advanced music theory with deep generative models, using a symbolic Chinese pop music dataset to bring it to life.
+  image_name: ../img/featured/fyp/fyp.jpg
+  used:
+    - thing: Python
+    - thing: PyTorch
+    - thing: C++
+    - thing: MIDI
+    - thing: Transformer
+    - thing: Music Theory
+    - thing: Music Composition
+
 - name: AI-powered Music Production System
   url: https://github.com/Humming-Tacos
   code: https://github.com/Humming-Tacos
