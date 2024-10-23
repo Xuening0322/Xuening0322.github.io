@@ -50,7 +50,7 @@
 - name: Algorithmic Music Composition with Long-term Structure
   url: https://xuening.wang/coming_soon
   code: https://xuening.wang/coming_soon
-  description: My undergrad final year project where I built a system to compose full songs with rich, long-term structure. It lets you generate music by controlling everything from individual bars to entire sections, creating flexible and customizable compositions. The project combines advanced music theory with deep generative models, using a symbolic Chinese pop music dataset to bring it to life.
+  description: My undergrad final year project where I built a system to compose full songs by controlling everything from individual bars to entire sections, creating flexible and customizable compositions. The project combines advanced music theory with deep generative models, using a symbolic Chinese pop music dataset to bring it to life.
   image_name: ../img/featured/fyp/fyp.jpg
   used:
     - thing: Python
