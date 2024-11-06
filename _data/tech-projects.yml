@@ -1,6 +1,6 @@
 - name: CAMeleon
-  url: https://scaffolder-193240211534.us-central1.run.app/examples/
-  code: https://scaffolder-193240211534.us-central1.run.app/examples/
+  url: https://matteroftechlab.org/projects/2024-shuo-cameleon/cameleon.html
+  code: https://matteroftechlab.org/projects/2024-shuo-cameleon/cameleon.html
   description: A 3D tool for digital fabrication. Designed to optimize digital fabrication workflows. Built with my amazing friends at Cornell Tech.
   image_name: ../img/featured/cameleon/cameleon.png
   used:
