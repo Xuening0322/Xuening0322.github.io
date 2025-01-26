@@ -15,10 +15,6 @@ social:
     url: https://github.com/xuening0322
   - title: linkedin
     url: https://www.linkedin.com/in/xueningwang
-  - title: instagram
-    url: https://instagram.com/xuening_0322
-  - title: blog
-    url: http://xuening.wang/blog
 
 # Build settings
 markdown: kramdown

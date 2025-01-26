@@ -13,11 +13,12 @@
 - name: Poem to Music Video App
   url: https://github.com/Xuening0322/poem-to-video-app
   code: https://github.com/Xuening0322/poem-to-video-app
-  description: A Next.js app that analyzes poems and generates music videos with voice narration, leveraging OpenAI, MusicGen, and Replicate APIs for media generation.
+  description: A Next.js app that analyzes poems and generates music videos with voice narration, leveraging OpenAI, MusicGen, Spotify API and Replicate APIs for media generation.
   image_name: ../img/featured/poemtovideo/poemtovideo.png
   used:
     - thing: Next.js
     - thing: OpenAI API
+    - thing: Spotify API
     - thing: Replicate
     - thing: FFmpeg
     - thing: AWS
